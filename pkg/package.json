@@ -1,0 +1,15 @@
+{
+  "name": "PS",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "WGPU_bg.wasm",
+    "WGPU.js",
+    "WGPU.d.ts"
+  ],
+  "main": "WGPU.js",
+  "types": "WGPU.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
